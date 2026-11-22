@@ -1,0 +1,65 @@
+{
+  "fields": [
+    "id",
+    "left",
+    "right",
+    "valid_area",
+    "first_period",
+    "last_period",
+    "rate",
+    "state"
+  ],
+  "key": "id",
+  "rows": [
+    {
+      "id": "B1",
+      "left": "bath_one",
+      "right": "bath_travel",
+      "valid_area": "north",
+      "first_period": "2025-08",
+      "last_period": "2026-07",
+      "rate": "1.30",
+      "state": "accepted"
+    },
+    {
+      "id": "B2",
+      "left": "bath_one",
+      "right": "bath_travel",
+      "valid_area": "west",
+      "first_period": "2025-09",
+      "last_period": "2026-05",
+      "rate": "1.28",
+      "state": "withdrawn"
+    },
+    {
+      "id": "B3",
+      "left": "combo",
+      "right": "bath_travel",
+      "valid_area": "north",
+      "first_period": "2026-02",
+      "last_period": "2026-07",
+      "rate": "1.00",
+      "state": "filed"
+    },
+    {
+      "id": "B4",
+      "left": "bath_two",
+      "right": "bath_travel",
+      "valid_area": "west",
+      "first_period": "2026-04",
+      "last_period": "2026-08",
+      "rate": "0.93",
+      "state": "filed"
+    },
+    {
+      "id": "B5",
+      "left": "combo",
+      "right": "bath_travel",
+      "valid_area": "west",
+      "first_period": "2026-06",
+      "last_period": "2026-08",
+      "rate": "1.18",
+      "state": "accepted"
+    }
+  ]
+}

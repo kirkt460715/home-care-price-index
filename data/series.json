@@ -1,0 +1,40 @@
+{
+  "fields": [
+    "series",
+    "area",
+    "category",
+    "base",
+    "min_coverage"
+  ],
+  "key": "series",
+  "rows": [
+    {
+      "series": "IN",
+      "area": "north",
+      "category": "bath",
+      "base": "2025-01",
+      "min_coverage": "0.70"
+    },
+    {
+      "series": "IW",
+      "area": "west",
+      "category": "bath",
+      "base": "2025-01",
+      "min_coverage": "0.75"
+    },
+    {
+      "series": "IA",
+      "area": "*",
+      "category": "bath",
+      "base": "2025-06",
+      "min_coverage": "0.75"
+    },
+    {
+      "series": "IE",
+      "area": "*",
+      "category": "escort",
+      "base": "2025-01",
+      "min_coverage": "0.80"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "fields": [
+    "contract",
+    "series",
+    "fallback",
+    "first_period",
+    "last_period",
+    "reference_price",
+    "max_change",
+    "late_rule",
+    "state"
+  ],
+  "key": "contract",
+  "rows": [
+    {
+      "contract": "C01",
+      "series": "IW",
+      "fallback": "IA",
+      "first_period": "2025-10",
+      "last_period": "2026-06",
+      "reference_price": "18000",
+      "max_change": "0.06",
+      "late_rule": "correction",
+      "state": "issued"
+    },
+    {
+      "contract": "C02",
+      "series": "IW",
+      "fallback": "",
+      "first_period": "2025-10",
+      "last_period": "2026-07",
+      "reference_price": "16000",
+      "max_change": "0.05",
+      "late_rule": "correction",
+      "state": "pending"
+    },
+    {
+      "contract": "C03",
+      "series": "IN",
+      "fallback": "IA",
+      "first_period": "2025-11",
+      "last_period": "2026-07",
+      "reference_price": "16500",
+      "max_change": "0.08",
+      "late_rule": "no_reopen",
+      "state": "pending"
+    },
+    {
+      "contract": "C04",
+      "series": "IN",
+      "fallback": "",
+      "first_period": "2025-11",
+      "last_period": "2026-06",
+      "reference_price": "17500",
+      "max_change": "0.03",
+      "late_rule": "no_reopen",
+      "state": "issued"
+    },
+    {
+      "contract": "C05",
+      "series": "IE",
+      "fallback": "",
+      "first_period": "2026-01",
+      "last_period": "2026-07",
+      "reference_price": "8000",
+      "max_change": "0.09",
+      "late_rule": "correction",
+      "state": "pending"
+    }
+  ]
+}

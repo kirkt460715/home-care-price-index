@@ -1,0 +1,29 @@
+{
+  "fields": [
+    "contract",
+    "series",
+    "base_observed",
+    "end_observed",
+    "amount",
+    "issued_on"
+  ],
+  "key": "contract",
+  "rows": [
+    {
+      "contract": "C01",
+      "series": "IA",
+      "base_observed": "104.2",
+      "end_observed": "108.9",
+      "amount": "18812",
+      "issued_on": "2026-07-15"
+    },
+    {
+      "contract": "C04",
+      "series": "IN",
+      "base_observed": "107.2",
+      "end_observed": "113.3",
+      "amount": "18025",
+      "issued_on": "2026-07-15"
+    }
+  ]
+}

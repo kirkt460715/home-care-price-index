@@ -1,0 +1,47 @@
+{
+  "fields": [
+    "spec",
+    "category",
+    "unit",
+    "components"
+  ],
+  "key": "spec",
+  "rows": [
+    {
+      "spec": "bath_one",
+      "category": "bath",
+      "unit": "visit",
+      "components": "single_worker"
+    },
+    {
+      "spec": "bath_travel",
+      "category": "bath",
+      "unit": "visit",
+      "components": "single_worker,travel"
+    },
+    {
+      "spec": "bath_two",
+      "category": "bath",
+      "unit": "visit",
+      "components": "two_workers"
+    },
+    {
+      "spec": "escort",
+      "category": "escort",
+      "unit": "hour",
+      "components": "escort"
+    },
+    {
+      "spec": "travel",
+      "category": "bath",
+      "unit": "trip",
+      "components": "travel"
+    },
+    {
+      "spec": "combo",
+      "category": "bath",
+      "unit": "package",
+      "components": "single_worker,travel"
+    }
+  ]
+}
